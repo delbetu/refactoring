@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ChildrenPrice	price.rb	/^class ChildrenPrice < Price$/;"	c
+Customer	customer.rb	/^class Customer$/;"	c
+CustomerBuilder	customer_builder.rb	/^class CustomerBuilder$/;"	c
+CustomerTest	customer_test.rb	/^class CustomerTest < Minitest::Test$/;"	c
+Movie	movie.rb	/^class Movie$/;"	c
+MovieBuilder	movie_builder.rb	/^class MovieBuilder$/;"	c
+NewReleasePrice	price.rb	/^class NewReleasePrice < Price$/;"	c
+Price	price.rb	/^class Price$/;"	c
+RegularPrice	price.rb	/^class RegularPrice < Price$/;"	c
+Rental	rental.rb	/^class Rental$/;"	c
+RentalBuilder	rental_builder.rb	/^class RentalBuilder$/;"	c
+StatementBuilder	statement_builder.rb	/^class StatementBuilder$/;"	c
+add_rental	customer.rb	/^  def add_rental(rental)$/;"	f	class:Customer
+build	customer_builder.rb	/^  def build$/;"	f	class:CustomerBuilder
+build	movie_builder.rb	/^  def build$/;"	f	class:MovieBuilder
+build	rental_builder.rb	/^  def build$/;"	f	class:RentalBuilder
+build	statement_builder.rb	/^	def build$/;"	f	class:StatementBuilder
+code	price.rb	/^  def code$/;"	f	class:ChildrenPrice
+code	price.rb	/^  def code$/;"	f	class:NewReleasePrice
+code	price.rb	/^  def code$/;"	f	class:Price
+code	price.rb	/^  def code$/;"	f	class:RegularPrice
+get_charge	movie.rb	/^  def get_charge(days_rented)$/;"	f	class:Movie
+get_charge	price.rb	/^  def get_charge(days_rented)$/;"	f	class:ChildrenPrice
+get_charge	price.rb	/^  def get_charge(days_rented)$/;"	f	class:NewReleasePrice
+get_charge	price.rb	/^  def get_charge(days_rented)$/;"	f	class:Price
+get_charge	price.rb	/^  def get_charge(days_rented)$/;"	f	class:RegularPrice
+get_charge	rental.rb	/^  def get_charge$/;"	f	class:Rental
+get_frequent_renter_points	movie.rb	/^  def get_frequent_renter_points(days_rented)$/;"	f	class:Movie
+get_frequent_renter_points	price.rb	/^  def get_frequent_renter_points(days_rented)$/;"	f	class:NewReleasePrice
+get_frequent_renter_points	price.rb	/^  def get_frequent_renter_points(days_rented)$/;"	f	class:Price
+get_frequent_renter_points	rental.rb	/^  def get_frequent_renter_points$/;"	f	class:Rental
+initialize	customer.rb	/^  def initialize(name)$/;"	f	class:Customer
+initialize	customer_builder.rb	/^  def initialize$/;"	f	class:CustomerBuilder
+initialize	movie.rb	/^	def initialize(title, price_code)$/;"	f	class:Movie
+initialize	movie_builder.rb	/^  def initialize$/;"	f	class:MovieBuilder
+initialize	rental.rb	/^	def initialize(movie, days_rented)$/;"	f	class:Rental
+initialize	rental_builder.rb	/^  def initialize(movie)$/;"	f	class:RentalBuilder
+initialize	statement_builder.rb	/^	def initialize$/;"	f	class:StatementBuilder
+price_code	movie.rb	/^  def price_code$/;"	f	class:Movie
+price_code=	movie.rb	/^  def price_code=(price_code)$/;"	f	class:Movie
+statement	customer.rb	/^  def statement$/;"	f	class:Customer
+test_childrens_rental1_day	customer_test.rb	/^  def test_childrens_rental1_day$/;"	f	class:CustomerTest
+test_childrens_rental4_day	customer_test.rb	/^  def test_childrens_rental4_day$/;"	f	class:CustomerTest
+test_childrensrental3_day	customer_test.rb	/^  def test_childrensrental3_day$/;"	f	class:CustomerTest
+test_newrelease_rental3_day	customer_test.rb	/^  def test_newrelease_rental3_day$/;"	f	class:CustomerTest
+test_newreleaserental1_day	customer_test.rb	/^  def test_newreleaserental1_day$/;"	f	class:CustomerTest
+test_newreleaserental2_day	customer_test.rb	/^  def test_newreleaserental2_day$/;"	f	class:CustomerTest
+test_regular_rental1_day	customer_test.rb	/^  def test_regular_rental1_day$/;"	f	class:CustomerTest
+test_regular_rental2_day	customer_test.rb	/^  def test_regular_rental2_day$/;"	f	class:CustomerTest
+test_regular_rental3_day	customer_test.rb	/^  def test_regular_rental3_day$/;"	f	class:CustomerTest
+test_rental	customer_test.rb	/^  def test_rental$/;"	f	class:CustomerTest
+test_without_rentals	customer_test.rb	/^  def test_without_rentals$/;"	f	class:CustomerTest
+total_charge	customer.rb	/^  def total_charge$/;"	f	class:Customer
+total_frequent_renter_points	customer.rb	/^  def total_frequent_renter_points$/;"	f	class:Customer
+with_customer_name	statement_builder.rb	/^	def with_customer_name(customer_name)$/;"	f	class:StatementBuilder
+with_days_rented	rental_builder.rb	/^  def with_days_rented(days_rented)$/;"	f	class:RentalBuilder
+with_frequent_renter_points	statement_builder.rb	/^	def with_frequent_renter_points(frequent_renter_points)$/;"	f	class:StatementBuilder
+with_movie	statement_builder.rb	/^	def with_movie(movie_name, amount)$/;"	f	class:StatementBuilder
+with_name	customer_builder.rb	/^  def with_name(name)$/;"	f	class:CustomerBuilder
+with_price_code	movie_builder.rb	/^  def with_price_code(price_code)$/;"	f	class:MovieBuilder
+with_rental	customer_builder.rb	/^  def with_rental(rental)$/;"	f	class:CustomerBuilder
+with_title	movie_builder.rb	/^  def with_title(title)$/;"	f	class:MovieBuilder
+with_total_amount	statement_builder.rb	/^	def with_total_amount(total_amount)$/;"	f	class:StatementBuilder
